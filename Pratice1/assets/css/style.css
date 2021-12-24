@@ -26,14 +26,6 @@
     z-index: 2;
 }
 
-.colorw {
-    color: var(--white-color);
-}
-
-.colorp {
-    color: var(--purple-color);
-}
-
 .navbar {
     display: flex;
     height: 113px;
@@ -157,4 +149,28 @@
     position: relative;
     font-weight: 700;
     font-size: 1.2rem;
+}
+
+.ptr {
+    width: 60%;
+    position: absolute;
+    top: -100px;
+}
+
+.section3 {
+    height: 837px;
+}
+
+.st31 {
+    height: 430px;
+}
+
+.st32 {
+    height: 194px;
+    background-color: var(--grbgr-color);
+}
+
+.st33 {
+    height: 214px;
+    background-color: var(--blp-color);
 }

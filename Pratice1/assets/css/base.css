@@ -2,6 +2,8 @@
     --white-color: #fff;
     --purple-color: #64b;
     --gray-color: #bbb;
+    --blp-color: rgb(9,12,53);
+    --grbgr-color: rgb(175,175,175,0.2);
 }
 
 * {
@@ -15,6 +17,14 @@
 html {
     font-family: 'Open Sans', sans-serif;
     font-size: 62.5%;
+}
+
+.colorw {
+    color: var(--white-color);
+}
+
+.colorp {
+    color: var(--purple-color);
 }
 
 .fonttext {
