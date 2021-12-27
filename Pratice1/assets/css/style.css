@@ -207,6 +207,9 @@
     position: relative;
 } 
 
+.fbs-40 {
+    flex-basis: 40%;
+}
 
 .square {
     width: 133px; 
