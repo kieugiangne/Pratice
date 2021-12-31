@@ -12,6 +12,14 @@
     .show-on-tablet-mobie {
         display: block;
     }
+
+    .all {
+        overflow: hidden;
+    }
+
+    .section4 {
+        padding: 0;
+    }
 }
 
 /* //IPAD// */
@@ -85,6 +93,67 @@
 
     .cot1 {
         flex-direction: column-reverse;
+    }
+
+    .ptr2 {
+        width: 0;
+    }
+
+    .fbs1 {
+        position: none;
+        width: 100%;
+        padding-left: 56px;
+        /* position: relative; */
+        bottom: 80px;
+    }
+
+    .stall1 {
+        align-items: stretch;
+        right: 0;
+    }
+
+    .post {
+        width: 70%;
+        margin: 0;
+    }
+
+    .enjoy {
+        width: 70%;
+        margin: 0;
+    }
+
+    .line4 {
+        margin: 0;
+        top: 50px;
+    }
+
+    .test1 {
+        left: 0;
+    }
+
+    .mt-186 {
+        margin: 0;
+        height: auto;
+    }
+
+    .download-tablet {
+        height: auto;
+        margin: 100px auto 20px;
+    }
+
+    .downloadapp {
+        margin-top: 80px;
+        width: auto;
+        height: auto;
+    }
+
+    .mt-36 {
+        margin-top: 36px;
+    }
+
+    .footer {
+        position: relative;
+        margin-top: 100px;
     }
 }
 
