@@ -1,357 +1,92 @@
-.grid {
-    width: 100%;
-    display: block;
-    padding: 0;
-}
-
-.grid.wide {
-    max-width: 1200px;
-    margin: 0 auto;
-}
 
 .first {
-    height: auto;
-    width: 100%;
-    background-image: url('/Pratice1/assets/img/first.jpg');
-    background-size: 100%;
+    background-image: url('https://sports360news.com/uploads_images/21452833171.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
     position: relative;
-    z-index: 1;
 }
 
 .overlay {
-    /* position: absolute; */
-    height: auto;
+    position: absolute;
+    top: 0;
+    left: 0;
     width: 100%;
-    background-color: rgb(9,12,53,0.9);
-    z-index: 2;
+    height: 100%; 
+    background-color: rgba(9,12,53,0.9);
+    z-index: 0;
 }
 
-.navbar {
-    display: flex;
-    height: 113px;
-    justify-content: space-between;
+.banner {
+    width: 80%;
+    margin: 0 auto;
+    z-index: 2;
+    position: relative;
+}
+
+.header {
+    color: var(--white-color);
     align-items: center;
+    height: 37px;
+    padding-top: 44px;
+}
+
+.logo {
+    font-size: 2.3rem;
+    font-weight: 700;
 }
 
 .text {
-    margin-top: 200px;
+    margin-top: 243px;
 }
 
-.tagalign {
-    margin-left: 366px;
-}
-
-.menu {
-    display: flex;
-    justify-content: space-between;
-    margin-top: 10px;
-}
-
-.menu ul {
-    list-style-type: none;
-}
-
-.menu ul li {
-    display: inline-block;
-}
-
-.menu ul li:not(:last-child) {
-    margin-right: 55px;
-}
-
-.menu ul li a {
-    text-decoration: none;
-    color: #64b;
-    font-weight: 700;
-}
-
-.download {
-    height: 190px;
-    width: 536px;
-    margin: 40px auto;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-/* //cho dowload// */
-.dow {
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-}
-
-.icon1 {
-    font-size: 3.5rem;
-}
-
-.icon2 {
-    text-align: left;
-    font-size: 1.1rem;
-}
-
-.grid.wide1 {
-    width: 1124px;
-    /* height: 716px; */
-    margin: 0 auto;
-}
-
-.section2 {
-    height: 716px;
-}
-
-.st21 {
-    height: 276px;
-}
-
-.st22 {
-    background-color: rgb(175,175,175,0.2);
-    height: 200px;
-}
-
-.st23 {
-    height: 240px;
-    background-color: #64b;
-}
-
-.horiz {
-    display: inline-block;
-}
-
-.line::after {
-    content: '';
-    position: absolute;
-    top: 100%;
-    left: 0;
-    width: 100%;
-    height: 3px;
-    background-color: var(--purple-color);
-    border-radius: 4px;
-}
-
-.line {
-    position: relative;
-    font-weight: 700;
-    font-size: 1.2rem;
-}
-
-.line1::after {
-    content: '';
-    position: absolute;
-    top: 100%;
-    left: 0;
-    width: 100%;
-    height: 3px;
-    background-color: white;
-    border-radius: 4px;
-}
-
-.line1 {
-    position: relative;
-    font-weight: 700;
-    font-size: 1.2rem;
-}
-
-.ptr {
-    width: 60%;
-    position: absolute;
-    top: -100px;
-}
-
-.ptr1 {
-    position: absolute;
-    top: 0;
-    /* transform: translateY(-50%); */
-    right: 0;
-}
-
-.section3 {
-    height: 837px;
-    position: relative;
-}
-
-.st31 {
-    height: 430px;
-}
-
-.st32 {
-    height: 194px;
-    background-color: var(--grbgr-color);
-}
-
-.st33 {
-    height: 214px;
-    background-color: var(--blp-color);
-}
-
-.section4 {
-    height: auto;
-    padding: 0 94px 0 28px;
-}
-
-.ptr2 {
-    width: 769px;
-    height: 580px;
-}
-
-.pic {
-    height: 100%;
-    width: 100%;
-}
-
-.fbs {
-    flex-basis: 55%;
-}
-
-.fbs1 {
-    flex-basis: 45%;
-    position: relative;
-} 
-
-.fbs-40 {
-    flex-basis: 40%;
-}
-
-.square {
-    width: 133px; 
-    height: 123px;
-    background-color: var(--purple-color);
+.ft1 {
+    font-size: 7.0rem;
     color: white;
-    margin-right: 35px;
+    letter-spacing: 2.5px;
 }
 
-.test {
-    position: relative;
-    right: calc(133px / 2);
-}
-
-.test1 {
-    position: relative;
-    left: 16%;
-}
-
-.stall1 {
-    display: flex;
-    align-items: center;
-}
-
-.post {
-    width: 260px;
-}
-
-.find {
-    width: 80%;
-}
-
-.contact {
-    width: 316px;
-}
-
-.enjoy {
-    width: 404px;
-}
-
-.line3::after {
-    content: '';
-    position: absolute;
-    top: 100%;
-    left: 0;
-    width: 100%;
-    height: 3px;
-    background-color: #86c;
-    border-radius: 4px;
-}
-
-.line3 {
-    position: relative;
-    font-size: 1.9rem;
-    font-weight: 700;
-    letter-spacing: 1px;
-    left: 50%;
-    top: 50%;
-    transform: translate(-50%,-50%);
-}
-
-.line4 {
-    height: 4px;
-    width: 17px;
-    background-color: var(--purple-color);
-    border-radius: 5px;
-    position: relative;
-    top: 70px;
-}
-
-.finally {
-    padding-top: 50%;
-    width: 100%;
-    background-image: url('/Pratice1/assets/img/finally.jpg');
-    background-size: cover;
-    background-repeat: no-repeat;
-    position: relative;
-    z-index: 1;
-}
-
-.overlay1 {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background-color: rgb(9,12,53,0.9);
-}
-
-.downloadapp {
-    width: 721px;
-    height: 121px;
-}
-
-.mt-186 {
-    margin-top: 186px;
-}
-
-.footer {
-    height: 108px;
-    width: 100%;
-    background-color: rgba(9,12,53,0.7);
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    z-index: 2;
+.tr {
+    text-align: right;
 }
 
 .list ul {
     list-style-type: none;
+    text-align: right;
 }
 
 .list ul li {
-    display: inline;
+    display: inline-block;
+    padding: 10px 35px 0 0;
+}
+
+.list ul li a {
+    text-decoration: none;
+    color: var(--purple-color);
+}
+
+.list ul li:last-child {
+    margin: 0 -35px 0 0;
+}
+
+.download {
+    width: 540px;
+    margin: 150px auto 0;
+    padding-bottom: 100px;
+}
+
+.app {
+    color: white;
+    padding: 15px 15px;
+    display: flex;
+    align-items: center;
+    border-radius: 30px;
+}
+
+.fontic {
     font-size: 3.0rem;
+    margin: 0 20px;
 }
 
-.list ul li:not(:last-child) {
-    margin-right: 20px;
-}
-
-.conditions p {
-    position: relative;
-    margin: 0;
-}
-
-.conditions p:not(:last-child) {
-    margin-right: 15px;
-}
-
-.conditions p:first-child:after {
-    content: "";
-    position: absolute;
-    width: 1px;
-    height: 16px;
-    top: 3px;
-    right: -10.5px;
-    background-color: var(--white-color);
-    font-weight: 700;
-}
-
-.pd-37 {
-    width: 100%;
-    padding: 0 37px;
+.inline {
+    display: inline-block;
 }

@@ -19,82 +19,13 @@ html {
     font-size: 62.5%;
 }
 
-.colorw {
-    color: var(--white-color);
-}
-
-.colorp {
-    color: var(--purple-color);
-}
-
-.colorft1 {
-    color: rgb(175,175,175,0.5);
-}
-
-.colorft2 {
-    color: rgb(175,175,175);
-}
-
-.fonttext {
-    font-size: 3.5rem;
-    letter-spacing: 5px;
-}
-
-.fonttext1 {
-    font-size: 6.0rem;
-    font-weight: 700;
-    letter-spacing: 5px;
-}
-
-.fonttext2 {
-    font-size: 2.5rem;
-    font-weight: 700;
-    letter-spacing: 2.5px;
-}
-
-.fonttext3 {
-    font-size: 1.5rem;
-    font-weight: 700;
-    margin-top: 20px;
-}
-
-.fonttext4 {
-    font-size: 2.0rem;
-    font-weight: 700;
-    margin-top: 20px;
-}
-
-.stall {
-    display: flex !important;
+.flx {
+    display: flex;
     justify-content: space-between;
-    align-items: center;    
-}
-
-.height-full {
-    height: 100%;
-}
-
-.mt-4 {
-    margin-top: 4px;
-}
-
-.mb-50 {
-    margin-bottom: 50px;
-}
-
-.mt-8 {
-    margin-top: 8px;
-}
-
-.ml-102 {
-    margin-left: 102px;
 }
 
 .btn {
-    border: none;
-    background-color: #64b;
-    color: var(--white-color);
-    border-radius: 40px;
     min-width: 250px;
-    min-height: 60px;
+    height: auto;
+    background-color: var(--purple-color);
 }
