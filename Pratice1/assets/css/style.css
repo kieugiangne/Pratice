@@ -90,3 +90,60 @@
 .inline {
     display: inline-block;
 }
+
+.second {
+    /* max-width: 1024px;
+    margin: 0 auto; */
+}
+
+.mt-20 {
+    margin-top: 20px;
+}
+
+.mt-30 {
+    margin: 30px 0;
+}
+
+.st11 {
+    height: 120px;
+    background: blue;
+    flex-shrink: ;
+}
+
+.ft2 {
+    font-size: 2.0rem;
+    color: var(--grbgr-color);
+}
+
+.ft3 {
+    font-size: 1.5rem;
+    margin-top: 10px;
+}
+
+.st12 {
+    height: 200px;
+    background: violet;
+}
+
+.st13 {
+    height: 240px;
+    background: red;
+}
+
+.pt-70 {
+    padding-top: 70px;
+}
+
+svg {
+    position: absolute;
+}
+
+.sub-section1 {
+    flex-shrink: 0;
+    width: 100%;
+}
+.ATHLETS,
+.wrapper {
+    width: calc(100% - 678px);
+    margin: 0 0 0 auto;
+}
