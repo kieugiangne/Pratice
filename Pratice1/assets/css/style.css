@@ -91,48 +91,57 @@
     display: inline-block;
 }
 
-.second {
-    /* max-width: 1024px;
-    margin: 0 auto; */
-}
-
 .mt-20 {
     margin-top: 20px;
 }
 
-.mt-30 {
-    margin: 30px 0;
+.pdft1 {
+    padding: 20px 0 40px 0;
 }
 
 .st11 {
     height: 120px;
-    background: blue;
-    flex-shrink: ;
 }
 
 .ft2 {
-    font-size: 2.0rem;
+    display: inline-block;
+    font-size: 3.0rem;
+    margin-bottom: 20px;
+    letter-spacing: 2px;
     color: var(--grbgr-color);
 }
 
 .ft3 {
+    font-size: 1.8rem;
+}
+
+.ft4 {
     font-size: 1.5rem;
-    margin-top: 10px;
+}
+
+.sub {
+    width: 570px;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    word-break: break-word;
+    text-overflow: ellipsis;
 }
 
 .st12 {
-    height: 200px;
-    background: violet;
+    height: 180px;
+    background: rgb(194,194,195,0.2);
 }
 
 .st13 {
-    height: 240px;
-    background: red;
+    height: 230px;
+    background: var(--purple-color);
 }
 
-.pt-70 {
-    padding-top: 70px;
-}
+/* .pt-70 {
+    padding-top: 20px;
+} */
 
 svg {
     position: absolute;
@@ -144,6 +153,40 @@ svg {
 }
 .ATHLETS,
 .wrapper {
-    width: calc(100% - 678px);
-    margin: 0 0 0 auto;
+    /* width: calc(100% - 678px); */
+    width: 50%;
+    margin: auto 0 auto auto;
+}
+
+.common-wrapper {
+    display: flex;
+}
+
+
+.section1-img {
+    position: absolute;
+    left: 200px;
+    object-fit: cover;
+    background-size: cover;
+    width: 35%;
+}
+
+.PLAYERS,
+.wrapper1 {
+    width: 50%;
+    margin: auto 0;
+    margin-left: 200px;
+}
+
+.pdplayer {
+    padding: 100px 0 50px 0;
+}
+
+.section2-img {
+    position: absolute;
+    right: 150px;
+    object-fit: cover;
+    background-size: cover;
+    width: 40%;
+    margin-top: 40px;
 }
